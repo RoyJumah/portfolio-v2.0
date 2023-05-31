@@ -1,4 +1,6 @@
 // make the navbar on mobile screen visible when the hamburger icon is clicked
+
+const testinomials = document.querySelector(".testimonial__card");
 document.addEventListener("DOMContentLoaded", function () {
   var navbarToggle = document.querySelector(
     '[data-collapse-toggle="navbar-default"]'
@@ -73,8 +75,3 @@ if (currentTheme) {
 }
 
 //Adding date
-
-let myDate = document.querySelector("#datee");
-
-const yes = new Date().getFullYear();
-myDate.innerHTML = yes;

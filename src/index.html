@@ -19,9 +19,14 @@
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
+    <!-- Link to the file hosted on your server, -->
+<link rel="stylesheet" href="path-to-the-file/splide.min.css">
+
+
+
  
     
-   <link rel="manifest" href="assets/favicon/site.webmanifest" />
+   
    <link
      rel="stylesheet"
      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -38,9 +43,8 @@
         <div class="container">
           <!-- Logo -->
           <h1 id="logo">
-            <a href="https://github.com/CommunityPro/portfolio-html"
-              ><img src="./assets/logo.png" alt="Your Logo"
-            /></a>
+            <a href="#"
+              ><span class="font-extrabold">RJ</span></a>
           </h1>
           <!-- Navbar links -->
           <ul class="nav-menu">
@@ -96,7 +100,7 @@
               class="inline-block mt-4 px-14 py-3 mr-2 btn btn-secondary text-white font-medium text-xl leading-snug rounded-3xl shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
-              href="#!"
+              href="#contact"
               role="button"
             >
               Hire Me
@@ -230,11 +234,11 @@
       <a href="#" class="btn btn-secondary"
         target="_blank" >See More <i class="fas fa-arrow-right"></i
       ></a>
-    </section>
+  </section>
 <section id="articles"  class="container">
-  <div class="division"></div>
-  <h2 class="text-2xl font-semibold mb-2 text-center"> Featured Articles</h2>
-  <p class="text-center mb-4">These were first two articles that I published on Medium, I plan to write more in the future. Stay tuned!</p>
+   <div class="division"></div>
+    <h2 class="text-2xl font-semibold mb-2 text-center"> Featured Articles</h2>
+    <p class="text-center mb-4">These were first two articles that I published on Medium, I plan to write more in the future. Stay tuned!</p>
   <div class="p-10 projects-container flex gap-6 justify-center"> 
     <!--Card 1-->
     <div class=" articleCard rounded overflow-hidden shadow-lg flex flex-col gap-2">
@@ -245,8 +249,8 @@
           February 19th, 2023 / 6 min read
         </p>
       </div>
-    
     </div>
+    <!-- card 2 -->
     <div class=" articleCard rounded overflow-hidden shadow-lg flex flex-col gap-2">
       <img class="w-full" src="../assets/images/projects/microverse.png" alt="Mountain">
       <div class="px-6 py-4">
@@ -259,38 +263,57 @@
     </div>
   </div>
 </section>
-
- 
-      
-      <section id="contact" class="contact-form container">
-        <div class="division"></div>
-        <div class="space-y-2 text-center mb-4">
-          <h2 class="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-          <div class="dark:text-gray-400">Vivamus in nisl metus? Phasellus.</div>
-        </div>
-        <div class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-800 dark:text-gray-100 projects-container">
-          <div class="flex flex-col justify-between">
-            <img src="../assets/images/projects/contact-form.svg" alt="" class="p-6 h-52 md:h-64">
+<section id="contact" class="contact__form container">
+  <div class="division"></div>
+  <div class="space-y-2 mb-4">
+    <h2 class="text-4xl font-bold text-center">Let's talk!</h2>
+    <div class="dark:text-gray-400 text-center">Vivamus in nisl metus? Phasellus.</div>
+  </div>
+  <div class="flex flex-col md:flex-row gap-6">
+    <div class="flex-1 md:flex-grow-0 md:w-3/4 contact__container-one">
+      <div class="p-8 rounded">
+        <h2 class="text-2xl font-bold mb-2">What's up?</h2>
+        <form novalidate="">
+          <div class="form__container flex flex-col md:flex-row gap-4">
+            <div class="form-label__container flex flex-1 flex-col gap-4">
+              <div>
+                <input id="name" type="text" placeholder="Full name" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300">
+              </div>
+              <div>
+                <input id="subject" type="text" placeholder="Subject" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300">
+              </div>
+              <div>
+                <input id="email" type="email" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300" placeholder="Email">
+              </div>
+            </div>
+            <div class="flex-1">
+              <textarea id="message" rows="5" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300" placeholder="Write Your Message"></textarea>
+            </div>
           </div>
-          <form novalidate="" class="flex flex-col gap-4">
-            <div>
-              <input id="name" type="text" placeholder="Name" class="w-full p-3 rounded text-gray-900 bg-gray-100 no-border">
-            </div>
-            <div>
-              <input id="email" type="email" class="w-full p-3 rounded bg-gray-100 text-gray-900 no-border" placeholder="Email">
-            </div>
-            <div>
-              <textarea  rows=5 id="message" rows="3" class="w-full p-3 rounded bg-gray-100 text-gray-900 no-border" placeholder="Write Your Message"></textarea>
-            </div>
-            <div class=" flex ">
-              <button type="submit" class="self-start  text-gray-100 py-3 px-4 rounded-md btn btn-secondary ">Send Message</button>
-            </div>
-          </form>
           
-        </div>
-      </section>
+          <div class="flex mt-4">
+            <button type="submit" class="btn btn-secondary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="flex-1 md:flex-grow contact__container-two">
+      <div class="p-8 rounded">
+        <h2 class="text-2xl font-bold ">What is your plan?</h2>
+        <span class="text-2xl font-bold">Call me</span>
+        <p class="text-lg ">Let's get in touch and see how we can help each other. Feel free to drop a message any time any day!</p>
+        <ul class="flex flex-col mt-4 font-bold text-lg ">
+          <li class="flex items-center gap-4 "><ion-icon class="contacts__icon" name="navigate"></ion-icon> <span>Nairobi, Kenya</span></li>
+          <li class="flex items-center gap-4 "><ion-icon class="contacts__icon" name="chatbubbles"></ion-icon><span>royjumah17@gmail.com</span></li>
+          <li class="flex items-center gap-4"><ion-icon class="contacts__icon"name="logo-whatsapp"></ion-icon><span>+254 722 696 088</span></li>
+        </ul>
+      </div>
+    </div>
+</section>
+
 <footer>
-    <div class="max-w-screen-xl px-4 py-12 mx-auto overflow-hidden sm:px-6 lg:px-8">
+  <div class="division"></div>
+    <div class="max-w-screen-xl px-4 py-8 mx-auto overflow-hidden sm:px-6 lg:px-8">
       <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
         <div class="px-5 py-2">
           <a href="#" class="text-base text-gray-500 hover:text-gray-900">
@@ -335,18 +358,17 @@
         <a href="#" class="text-gray-400 hover:text-gray-500">
           <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
         </a>
-
+      </div>
   </div>
-  <div class="text-center flex flex-col gap-2 text-dm mt-4">
+  <div class="text-center flex flex-col gap-2 mt-2">
     <p>Made by <a href="https://www.linkedin.com/in/roy-jumah/" target="_blank"><span style="
           color: #339af0;
       " class="cursor-pointer">Roy Jumah </span><i class="bi bi-arrow-up-right link-arrow"></i></a></p>
     <p>This portfolio is open source and the source code can be found <a href="https://github.com/RoyJumah/portfolio-v2.0" target="_blank"><span class="cursor-pointer" style="
       color: #339af0;
-      ">on GitHub</span>  <i class="bi bi-arrow-up-right  link-arrow"></i></p></a>
+      ">on GitHub</span>  <i class="bi bi-arrow-up-right  link-arrow"></i></a></p>
   </div>
-
-  </footer>
- 
+    
+ </footer> 
 </body>
 </html>
