@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
-   
- 
-    
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/script.js"></script>
     <link
@@ -19,20 +16,17 @@
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
-    <!-- Link to the file hosted on your server, -->
-<link rel="stylesheet" href="path-to-the-file/splide.min.css">
-
-
-
- 
-    
-   
    <link
      rel="stylesheet"
      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
      crossorigin="anonymous"
    />
+   <script src="https://kit.fontawesome.com/2816b8d215.js" crossorigin="anonymous"></script>
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <title>Roy's Portfolio</title>
    
   </head>
@@ -51,7 +45,7 @@
             <li><a class="nav-link" href="#">ABOUT</a></li>
             <li><a class="nav-link" href="#projects">PROJECTS</a></li>
             <li><a class="nav-link" href="#contact">CONTACT</a></li>
-            <li><a class="nav-link" href="#articles">ARTICLES</a></li>
+            <li><a class="nav-link" href="#blog">BLOG</a></li>
             <li>
               <a
                 class="nav-link btn btn-primary"
@@ -79,7 +73,7 @@
         </div>
       </nav>
     <section
-      class="px-6 py-12 md:px-12  text-center lg:text-left"
+      class="text-center lg:text-left pt-12"
     >
       <div class="container mx-auto xl:px-32">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -119,7 +113,7 @@
               </svg>
             </a>
           </div>
-          <div class="mb-12 lg:mb-0">
+          <div>
             <img
               src="../assets/images/headline/headline-image.png"
               class="w-full rounded-lg"
@@ -235,35 +229,80 @@
         target="_blank" >See More <i class="fas fa-arrow-right"></i
       ></a>
   </section>
-<section id="articles"  class="container">
+  <section id="blog"class="container">
    <div class="division"></div>
-    <h2 class="text-2xl font-semibold mb-2 text-center"> Featured Articles</h2>
-    <p class="text-center mb-4">These were first two articles that I published on Medium, I plan to write more in the future. Stay tuned!</p>
-  <div class="p-10 projects-container flex gap-6 justify-center"> 
+    <h2 class="text-3xl font-bold mb-2"> Latest Posts</h2>
+    <p class="mb-4">These are my first two articles that I published on Medium, I plan to write more in the future. Stay tuned!</p>
+  <div class="flex flex-col gap-2"> 
     <!--Card 1-->
-    <div class=" articleCard rounded overflow-hidden shadow-lg flex flex-col gap-2">
-      <img class="w-full" src="../assets/images/projects/impostersyndrome.png" alt="Mountain">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl m-2"> Understanding and Coping with Imposter Syndrome</div>
-        <p>
-          February 19th, 2023 / 6 min read
-        </p>
-      </div>
-    </div>
+      <a class=" flex items-center justify-between articleCard" target="_blank" href="https://medium.com/@royjumah17/conquer-your-inner-critic-understanding-and-coping-with-imposter-syndrome-8af894553a3e">
+        <h2 class="font-bold text-lg"> Understanding and Coping with Imposter Syndrome</h2>
+        <time class="text-sm">
+          February 19th, 2023 
+        </time>
+      </a>  
     <!-- card 2 -->
-    <div class=" articleCard rounded overflow-hidden shadow-lg flex flex-col gap-2">
-      <img class="w-full" src="../assets/images/projects/microverse.png" alt="Mountain">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">My Journey Through Microverse</div>
-        <p>
-         February 4th, 2023 / 6 min read
-        </p>
-      </div>
-      
-    </div>
+      <a class="flex items-center justify-between articleCard " target="_blank" href="https://medium.com/@royjumah17/my-journey-through-microverse-a-full-stack-development-bootcamp-883e3cf029aa" >
+        <h2 class="font-bold text-lg">My Journey Through Microverse</h2>
+        <time class="text-sm">
+         February 4th, 2023
+        </time>
+      </a>
   </div>
-</section>
-<section id="contact" class="contact__form container">
+  </section>
+  <section class="container">
+    <div class="division"></div>
+    <div class="testimonial mySwiper">
+      <div class="testi-content swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="../assets/images/people/person-five.jpg" alt="" class="image" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+            saepe provident dolorem a quaerat quo error facere nihil deleniti
+            eligendi ipsum adipisci, fugit, architecto amet asperiores
+            doloremque deserunt eum nemo.
+          </p>
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+          <div class="details">
+            <span class="name">Marnie Lotter</span>
+            <span class="job">Web Developer</span>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="../assets/images/people/person-one.jpg" alt="" class="image" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+            saepe provident dolorem a quaerat quo error facere nihil deleniti
+            eligendi ipsum adipisci, fugit, architecto amet asperiores
+            doloremque deserunt eum nemo.
+          </p>
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+          <div class="details">
+            <span class="name">Marnie Lotter</span>
+            <span class="job">Web Developer</span>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="../assets/images/people/person-two.jpg" alt="" class="image" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+            saepe provident dolorem a quaerat quo error facere nihil deleniti
+            eligendi ipsum adipisci, fugit, architecto amet asperiores
+            doloremque deserunt eum nemo.
+          </p>
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+          <div class="details">
+            <span class="name">Marnie Lotter</span>
+            <span class="job">Web Developer</span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="swiper-button-next "></div>
+      <div class="swiper-button-prev "></div> -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+ <section id="contact" class="contact__form container">
   <div class="division"></div>
   <div class="space-y-2 mb-4">
     <h2 class="text-4xl font-bold text-center">Let's talk!</h2>
@@ -302,16 +341,17 @@
         <h2 class="text-2xl font-bold ">What is your plan?</h2>
         <span class="text-2xl font-bold">Call me</span>
         <p class="text-lg ">Let's get in touch and see how we can help each other. Feel free to drop a message any time any day!</p>
-        <ul class="flex flex-col mt-4 font-bold text-lg ">
+        <ul class="flex flex-col mt-4 font-bold text-base ">
           <li class="flex items-center gap-4 "><ion-icon class="contacts__icon" name="navigate"></ion-icon> <span>Nairobi, Kenya</span></li>
           <li class="flex items-center gap-4 "><ion-icon class="contacts__icon" name="chatbubbles"></ion-icon><span>royjumah17@gmail.com</span></li>
-          <li class="flex items-center gap-4"><ion-icon class="contacts__icon"name="logo-whatsapp"></ion-icon><span>+254 722 696 088</span></li>
+          <li class="flex items-center gap-4"><ion-icon class="contacts__icon"name="logo-whatsapp"></ion-icon><span>+ 254 722 696 088</span></li>
         </ul>
       </div>
     </div>
+  </div>
 </section>
 
-<footer>
+ <footer>
   <div class="division"></div>
     <div class="max-w-screen-xl px-4 py-8 mx-auto overflow-hidden sm:px-6 lg:px-8">
       <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
@@ -359,16 +399,16 @@
           <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
         </a>
       </div>
-  </div>
-  <div class="text-center flex flex-col gap-2 mt-2">
-    <p>Made by <a href="https://www.linkedin.com/in/roy-jumah/" target="_blank"><span style="
-          color: #339af0;
-      " class="cursor-pointer">Roy Jumah </span><i class="bi bi-arrow-up-right link-arrow"></i></a></p>
-    <p>This portfolio is open source and the source code can be found <a href="https://github.com/RoyJumah/portfolio-v2.0" target="_blank"><span class="cursor-pointer" style="
-      color: #339af0;
-      ">on GitHub</span>  <i class="bi bi-arrow-up-right  link-arrow"></i></a></p>
-  </div>
-    
- </footer> 
-</body>
+    </div>
+    <div class="text-center flex flex-col gap-2 mt-2">
+      <p>Made by <a href="https://www.linkedin.com/in/roy-jumah/" target="_blank"><span style="
+            color: #339af0;
+        " class="cursor-pointer">Roy Jumah </span><i class="bi bi-arrow-up-right link-arrow"></i></a></p>
+      <p>This portfolio is open source and the source code can be found <a href="https://github.com/RoyJumah/portfolio-v2.0" target="_blank"><span class="cursor-pointer" style="
+        color: #339af0;
+        ">on GitHub</span>  <i class="bi bi-arrow-up-right  link-arrow"></i></a></p>
+    </div>    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ </body>
 </html>
