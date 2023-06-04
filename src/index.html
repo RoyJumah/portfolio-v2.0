@@ -36,13 +36,13 @@
       <nav class="navbar">
         <div class="container">
           <!-- Logo -->
-          <h1 id="logo">
+          <div id="logo">
             <a href="#"
               ><span class="font-extrabold">RJ</span></a>
-          </h1>
+          </div>
           <!-- Navbar links -->
           <ul class="nav-menu">
-            <li><a class="nav-link" href="#">ABOUT</a></li>
+            <li><a class="nav-link" href="#about">ABOUT</a></li>
             <li><a class="nav-link" href="#projects">PROJECTS</a></li>
             <li><a class="nav-link" href="#contact">CONTACT</a></li>
             <li><a class="nav-link" href="#blog">BLOG</a></li>
@@ -72,6 +72,7 @@
           </div>
         </div>
       </nav>
+    
     <section
       class="text-center lg:text-left pt-12"
     >
@@ -124,6 +125,42 @@
       </div>
     </section>
 
+    <section id="about" class="">
+      <div class="container">
+        <div class="division"></div>
+        <div class="about__container flex gap-6 flex-col md:flex-row">
+          <div class="about__description flex-1 md:flex-grow">
+          <h2 class="text-3xl mb-6">About Me</h2>
+          <p class="mb-2">I'm a full-stack developer based in Nairobi with expertise in Ruby on Rails and JavaScript frameworks like React. My experience encompasses building scalable web applications, designing RESTful APIs, and collaborating effectively with cross-functional teams. </p>   
+          <p>With a strong focus on detail and a knack for problem-solving, I thrive in dynamic environments.</p>
+        </div>
+        <div class="skills__logos flex-1 md:flex-grow">
+          <h2 class="text-3xl mb-6">Skills</h2>
+          <div class="grid grid-cols-3 gap-3">
+            <ul class="languages__icons">
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/html.svg" alt=""> <span>HTML</span> </li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/css.svg" alt=""> <span>CSS</span></li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/javascript.svg" alt=""><span>JavaScript</span></li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/bootstrap.svg" alt=""> <span>Bootstrap</span> </li>
+            </ul>
+          
+            <ul class="languages__icons">
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/sass.svg" alt=""> <span>Sass</span> </li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/react.svg" alt=""> <span>React</span> </li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/tailwind.svg" alt=""> <span>Tailwind</span> </li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/git.svg" alt=""> <span>Git</span> </li>
+            </ul>
+          
+            <ul class="languages__icons">
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/redux-svgrepo-com.svg" alt=""> <span>Redux</span> </li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/mysql-svgrepo-com.svg" alt=""> <span>MySQL</span> </li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/postgresql-logo-svgrepo-com.svg" alt=""> <span>PostgreSQL</span> </li>
+              <li class="flex gap-2 items-center"><img src="../assets/images/tech_icons/rails-svgrepo-com.svg" alt=""> <span>Rails</span> </li>
+            </ul>
+          </div>   
+       </div>
+      </div>
+    </section>
     
     <!-- Projects -->
     <section id="projects" class=" container">
@@ -133,24 +170,23 @@
         <p>Check out some of my personal projects</p>
       </div>
 
-      <article class="project">
+      <article class="project ">
         <!-- Project 1 -->
         <div href="" class="card">
-          <div class="project-info">
             <div class="project-bio">
               <h3>Climate Change Conference App</h3>
               <p>HTML5, CSS3, JavaScript</p>
             </div>
 
             <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/RoyJumah/Climate-Change-Conference" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://climatechangeconference.netlify.app/" target="_blank"><i class="fas fa-globe"></i></a>
             </div>
           </div>
         </div>
 
         <!-- Project 2 -->
-        <div href="" class="card">
+        <div href="" class="card ">
           <div class="project-info">
             <div class="project-bio">
               <h3>DriveWise Application</h3>
@@ -158,8 +194,8 @@
             </div>
 
             <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/RoyJumah/drivewise-frontend" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://drivewise.onrender.com/" target="_blank"><i class="fas fa-globe"></i></a>
             </div>
           </div>
         </div>
@@ -173,14 +209,14 @@
             </div>
 
             <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/RoyJumah/Space-Travelers-Hub" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://space-travelers-hub-2023.netlify.app/" target="_blank"><i class="fas fa-globe"></i></a>
             </div>
           </div>
         </div>
 
         <!-- Project 4 -->
-        <div href="" class="card">
+        <div href="" class="card ">
           <div class="project-info">
             <div class="project-bio">
               <h3>Leaderboard</h3>
@@ -188,8 +224,8 @@
             </div>
 
             <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/RoyJumah/Leaderboard" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://royjumahleaderboard.netlify.app/" target="_blank"><i class="fas fa-globe"></i></a>
             </div>
           </div>
         </div>
@@ -203,8 +239,8 @@
             </div>
 
             <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/RoyJumah/Budgetify" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://rails-budget-app-5jzx.onrender.com/" target="_blank"><i class="fas fa-globe"></i></a>
             </div>
           </div>
         </div>
@@ -225,7 +261,7 @@
         </div>
       </article>
 
-      <a href="#" class="btn btn-secondary"
+      <a href="https://github.com/RoyJumah?tab=repositories" class="btn btn-secondary"
         target="_blank" >See More <i class="fas fa-arrow-right"></i
       ></a>
   </section>
@@ -250,7 +286,7 @@
       </a>
   </div>
   </section>
-  <section class="container">
+  <section class="container" id="testimonials">
     <div class="division"></div>
     <div class="testimonial mySwiper">
       <div class="testi-content swiper-wrapper">
@@ -356,13 +392,13 @@
     <div class="max-w-screen-xl px-4 py-8 mx-auto overflow-hidden sm:px-6 lg:px-8">
       <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
         <div class="px-5 py-2">
-          <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+          <a href="#about" class="text-base text-gray-500 hover:text-gray-900">
             About
           </a>
         </div>
         <div class="px-5 py-2">
-          <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-           Articles
+          <a href="#blog" class="text-base text-gray-500 hover:text-gray-900">
+           Blog
           </a>
         </div>
         <div class="px-5 py-2">
@@ -372,30 +408,30 @@
         </div>
        
         <div class="px-5 py-2">
-          <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+          <a href="#projects" class="text-base text-gray-500 hover:text-gray-900">
             Projects
           </a>
         </div>
         <div class="px-5 py-2">
-          <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+          <a href="#testimonials" class="text-base text-gray-500 hover:text-gray-900">
             Testimonials
           </a>
         </div>
       </nav>
       <div class="mt-8 flex justify-center space-x-6 gap-4">
-        <a href="#" class="text-gray-400 hover:text-gray-500">
+        <a href="https://www.instagram.com/roy_jumah/" class="text-gray-400 hover:text-gray-500">
           <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
         </a>
-        <a href="#" class="text-gray-400 hover:text-gray-500">
+        <a href="https://github.com/RoyJumah" class="text-gray-400 hover:text-gray-500">
           <ion-icon class="social-icon" name="logo-github"></ion-icon>
 
         </a>
-        <a href="#" class="text-gray-400 hover:text-gray-500">
+        <a href="https://www.linkedin.com/in/roy-jumah/" class="text-gray-400 hover:text-gray-500">
           <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
 
 
         </a>
-        <a href="#" class="text-gray-400 hover:text-gray-500">
+        <a href="https://twitter.com/_royissues" class="text-gray-400 hover:text-gray-500">
           <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
         </a>
       </div>
