@@ -136,38 +136,34 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../../assets/images/projects/ClimateChange.png) center
+  background: url(../assets/images/projects/ClimateChange.png) center
     center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../../assets/images/projects/drivewise.png) center
-    center/cover;
+  background: url(../assets/images/projects/drivewise.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../../assets/images/projects/spacetravelers.png) center
+  background: url(../assets/images/projects/spacetravelers.png) center
     center/cover;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../../assets/images/projects/leaderboard.png) center
-    center/cover;
+  background: url(../assets/images/projects/leaderboard.png) center center/cover;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-  background: url(../../assets/images/projects/budgetapp.png) center
-    center/cover;
+  background: url(../assets/images/projects/budgetapp.png) center center/cover;
 }
 
 /* Project 6 */
 .card:nth-child(6) {
-  background: url(../../assets/images/projects/worldwise.png) center
-    center/cover;
+  background: url(../assets/images/projects/worldwise.png) center center/cover;
 }
 
 /* Media Queries */
