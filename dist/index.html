@@ -137,29 +137,47 @@
           <p>With a strong focus on detail and a knack for problem-solving, I thrive in dynamic environments.</p>
         </div>
         <div class="skills__logos flex-1 md:flex-grow">
-          <h2 class="text-3xl mb-6">Skills</h2>
-          <div class="grid grid-cols-3 gap-3">
-            <ul class="languages__icons">
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/html.svg" alt=""> <span>HTML</span> </li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/css.svg" alt=""> <span>CSS</span></li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/javascript.svg" alt=""><span>JavaScript</span></li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/bootstrap.svg" alt=""> <span>Bootstrap</span> </li>
-            </ul>
-          
-            <ul class="languages__icons">
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/sass.svg" alt=""> <span>Sass</span> </li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/react.svg" alt=""> <span>React</span> </li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/tailwind.svg" alt=""> <span>Tailwind</span> </li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/git.svg" alt=""> <span>Git</span> </li>
-            </ul>
-          
-            <ul class="languages__icons">
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/redux-svgrepo-com.svg" alt=""> <span>Redux</span> </li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/mysql-svgrepo-com.svg" alt=""> <span>MySQL</span> </li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/postgresql-logo-svgrepo-com.svg" alt=""> <span>PostgreSQL</span> </li>
-              <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/rails-svgrepo-com.svg" alt=""> <span>Rails</span> </li>
-            </ul>
-          </div>   
+          <h2 class="text-3xl mb-2">Technical Skills</h2>
+          <div class="technical skills flex gap-4 flex-col md:flex-row md:gap-0">
+            <div>
+              <p>• Project Management</p>
+              <p>• Debugging</p>
+              <p>• Remote Pair-Programming</p>  
+            </div>
+            <div>
+              <p>• Cross-Cultural Communication</p>
+              <p>• Critical Thinking</p>
+              <p>• Mentoring</p>
+              
+            </div>
+
+          </div>
+          <div class="tools mt-4">
+            <h2 class="text-3xl mb-2">Tools, Frameworks & Languages</h2>
+
+            <div class="grid grid-cols-3 gap-3">
+              <ul class="languages__icons">
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/html.svg" alt=""> <span>HTML</span> </li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/css.svg" alt=""> <span>CSS</span></li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/javascript.svg" alt=""><span>JavaScript</span></li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/bootstrap.svg" alt=""> <span>Bootstrap</span> </li>
+              </ul>
+            
+              <ul class="languages__icons">
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/sass.svg" alt=""> <span>Sass</span> </li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/react.svg" alt=""> <span>React</span> </li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/tailwind.svg" alt=""> <span>Tailwind</span> </li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/git.svg" alt=""> <span>Git</span> </li>
+              </ul>
+            
+              <ul class="languages__icons">
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/redux-svgrepo-com.svg" alt=""> <span>Redux</span> </li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/mysql-svgrepo-com.svg" alt=""> <span>MySQL</span> </li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/postgresql-logo-svgrepo-com.svg" alt=""> <span>PostgreSQL</span> </li>
+                <li class="flex gap-2 items-center"><img src="./assets/images/tech_icons/rails-svgrepo-com.svg" alt=""> <span>Rails</span> </li>
+              </ul>
+            </div>   
+          </div>
        </div>
       </div>
     </section>
@@ -174,10 +192,12 @@
 
       <article class="project ">
         <!-- Project 1 -->
-        <div href="" class="card">
+        <div href="#" class="card">
+          <div class="project-info">
             <div class="project-bio">
               <h3>Climate Change Conference App</h3>
               <p>HTML5, CSS3, JavaScript</p>
+             <p>This is a mock conference website that showcases famous activists and allows users to book tickets and view schedules.</p>
             </div>
 
             <div class="project-link">
@@ -186,13 +206,15 @@
             </div>
           </div>
         </div>
+        
 
         <!-- Project 2 -->
-        <div href="" class="card ">
+        <div href="#" class="card ">
           <div class="project-info">
             <div class="project-bio">
               <h3>DriveWise Application</h3>
               <p>React, Redux, Ruby on Rails</p>
+              <p>This is a user-friendly car reservation app that simplifies the process of reserving cars for drive testing</p>
             </div>
 
             <div class="project-link">
@@ -208,6 +230,7 @@
             <div class="project-bio">
               <h3>Space Travelers Hub</h3>
               <p>React, Redux, CSS3</p>
+              <p>This is an application that allows users to book rockets and join selected space missions derived from the SpaceX API.</p>
             </div>
 
             <div class="project-link">
@@ -223,6 +246,7 @@
             <div class="project-bio">
               <h3>Leaderboard</h3>
               <p>JavaScript, CSS3, HTML5</p>
+              <p>This is an application that displays different scores submitted by different players</p>
             </div>
 
             <div class="project-link">
@@ -238,6 +262,7 @@
             <div class="project-bio">
               <h3>Budget App</h3>
               <p>Ruby on Rails</p>
+              <p>This is an app that helps users easily manage their finances with customizable categories and transactions.</p>
             </div>
 
             <div class="project-link">
@@ -253,6 +278,7 @@
             <div class="project-bio">
               <h3>WorldWise</h3>
               <p>React, Redux, CSS3</p>
+              <p>This is an interactive web app for accessing country statistics with a user-friendly interface. </p>
             </div>
 
             <div class="project-link">

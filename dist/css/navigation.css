@@ -138,11 +138,6 @@ i {
   font-weight: var(--weight-semibold);
 }
 
-/* .navbar #logo img {
-  display: block;
-  width: 40px;
-} */
-
 .navbar .btn {
   margin-right: 1.5rem;
 }
@@ -219,10 +214,13 @@ i {
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
-  top: 160px;
+  top: 120px;
   left: 10px;
 }
 
+.project-link {
+  display: flex;
+}
 /* Footer */
 
 #footer {
@@ -386,7 +384,7 @@ i {
   height: 170px;
   width: 170px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 50%;
 }
 

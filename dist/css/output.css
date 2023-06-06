@@ -1195,6 +1195,9 @@ input:checked + .toggle-bg {
   margin-top: -1rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1514,6 +1517,7 @@ input:checked + .toggle-bg {
 .justify-between {
   justify-content: space-between;
 }
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1528,6 +1532,12 @@ input:checked + .toggle-bg {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .md\:gap-0 {
+    gap: 0px;
+  }
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
