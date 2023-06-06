@@ -5,5 +5,8 @@
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "flowbite": "^1.6.5"
+  },
+  "scripts": {
+    "build": "tailwind build src/css/style.css -o dist/css/output.css"
   }
 }
