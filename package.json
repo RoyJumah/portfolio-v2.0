@@ -7,6 +7,6 @@
     "flowbite": "^1.6.5"
   },
   "scripts": {
-    "build": "tailwind build src/css/style.css -o dist/css/output.css"
+    "build": "tailwind build dist/css/style.css -o dist/css/output.css"
   }
 }
