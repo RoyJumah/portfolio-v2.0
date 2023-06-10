@@ -368,21 +368,21 @@
     <div class="flex-1 md:flex-grow-0 md:w-3/4 contact__container-one">
       <div class="p-8 rounded">
         <h2 class="text-2xl font-bold mb-2">What's up?</h2>
-        <form novalidate="">
+        <form name="contact-me" netlify>
           <div class="form__container flex flex-col md:flex-row gap-4">
             <div class="form-label__container flex flex-1 flex-col gap-4">
               <div>
-                <input id="name" type="text" placeholder="Full name" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300">
+                <input name="full-name" id="name" type="text" placeholder="Full name" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300" required>
               </div>
               <div>
-                <input id="subject" type="text" placeholder="Subject" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300">
+                <input name="subject" id="subject" type="text" placeholder="Subject" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300" required>
               </div>
               <div>
-                <input id="email" type="email" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300" placeholder="Email">
+                <input name="email" id="email" type="email" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300" placeholder="Email" required>
               </div>
             </div>
             <div class="flex-1">
-              <textarea id="message" rows="5" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300" placeholder="Write Your Message"></textarea>
+              <textarea name="comment"id="message" rows="5" class="w-full p-3 rounded text-gray-900 focus:outline-none focus:ring focus:border-blue-300" required="Write Your Message"></textarea>
             </div>
           </div>
           
