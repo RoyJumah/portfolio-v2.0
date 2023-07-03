@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 [Portfolio Website] <a name="about-project"></a>
 
-**[Portfolio Website]** This is a minimalist version of my second portfolio. It has been built with HTML5, CSS3, Swiper JS, JavaScript, and Tailwind.
+- This is a minimalist version of my second portfolio. It has been built with HTML5, CSS3, Swiper JS, JavaScript, and Tailwind.
 
 ## Preview
 <table style="border-collapse: collapse; border: 0;">
